@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ControladorJava</servlet-name>
+  	<display-name>ControladorJava</display-name>
+  	<description></description>
+  	<servlet-class>pe.com.claro.controller.ControladorJava</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ControladorJava</servlet-name>
+  	<url-pattern>/controladorjava</url-pattern>
+  </servlet-mapping>
 </web-app>
