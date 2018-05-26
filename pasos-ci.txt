@@ -1,0 +1,5 @@
+Ejecutar sonar:
+sonar:sonar   -Dsonar.host.url=http://host.docker.internal:9000  -Dsonar.login=12295dedebe1f53972199720bff8de001ec937cc
+
+Ejecutar nexus:
+deploy
