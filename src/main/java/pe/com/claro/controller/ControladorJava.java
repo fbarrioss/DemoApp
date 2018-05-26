@@ -10,9 +10,9 @@ import javax.servlet.http.HttpServletResponse;
 public class ControladorJava extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-
+	
     public ControladorJava() {
-        
+		// Do nothing 
     }
 
 	
