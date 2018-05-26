@@ -17,7 +17,7 @@ public class TestFuncionales {
 	
 	@Test
 	public void CUcomparar() throws Exception {
-		assertEquals("1", "1");
+		// Do nothing
 	}
 
 /*	@Before
