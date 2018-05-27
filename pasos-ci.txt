@@ -3,3 +3,11 @@ sonar:sonar   -Dsonar.host.url=http://host.docker.internal:9000  -Dsonar.login=1
 
 Ejecutar nexus:
 deploy
+
+https://www.guru99.com/introduction-to-selenium-grid.html
+
+hub
+java -jar selenium-server-standalone-3.11.0.jar -role hub
+
+nodo
+java -Dwebdriver.gecko.driver="C:\geckodriver-v0.20.1-win64\chromedriver.exe" -jar selenium-server-standalone-3.11.0.jar -role webdriver -hub http://192.168.199.1:4444/grid/register -port 3333
