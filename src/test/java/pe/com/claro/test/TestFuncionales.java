@@ -31,14 +31,14 @@ public class TestFuncionales {
 		WebDriver driver = new RemoteWebDriver(new URL(nodeURL),capa);
 		//retirado
 		//WebDriver driver = new FirefoxDriver();
-		String baseUrl = "http://host.docker.internal:8080/DemoApp/index.jsp";
+		String baseUrl = "http://localhost:8080/DemoApp/index.jsp";
 		selenium = new WebDriverBackedSelenium(driver, baseUrl);
 	}
 
 	@Test
 	public void CUabrirLink() throws Exception {
-		selenium.open("http://host.docker.internal:8080/DemoApp/index.jsp");
-		assertEquals("", selenium.getTitle());
+		selenium.open("http://localhost:8080/DemoApp/index.jsp");
+		assertEquals("Test Funcionales", selenium.getTitle());
 		selenium.click("link=Controlador get");
 	}
 
