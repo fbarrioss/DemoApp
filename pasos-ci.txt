@@ -6,6 +6,9 @@ deploy
 
 https://www.guru99.com/introduction-to-selenium-grid.html
 
+console
+http://localhost:4444/grid/console
+
 hub
 java -jar selenium-server-standalone-3.11.0.jar -role hub
 
